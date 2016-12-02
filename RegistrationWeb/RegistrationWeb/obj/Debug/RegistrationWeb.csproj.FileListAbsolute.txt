@@ -10,3 +10,15 @@ C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\Reg
 C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\obj\Debug\RegistrationWeb.csprojResolveAssemblyReference.cache
 C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\obj\Debug\RegistrationWeb.dll
 C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\obj\Debug\RegistrationWeb.pdb
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.abstractions.dll
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.runner.utility.desktop.dll
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.assert.dll
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.core.dll
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.execution.desktop.dll
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.assert.pdb
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.assert.xml
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.core.pdb
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.core.xml
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.execution.desktop.pdb
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\xunit.execution.desktop.xml

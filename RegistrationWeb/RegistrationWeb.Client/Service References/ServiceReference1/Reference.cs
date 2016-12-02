@@ -8,14 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System;
-using RegistrationWeb.ServiceReference1;
-
-namespace RegistrationWeb.Client.RegistrationService {
+namespace RegistrationWeb.Client.ServiceReference1 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="RegistrationService.IRegistrationService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IRegistrationService")]
     public interface IRegistrationService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRegistrationService/getCourses", ReplyAction="http://tempuri.org/IRegistrationService/getCoursesResponse")]
@@ -140,12 +137,12 @@ namespace RegistrationWeb.Client.RegistrationService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IRegistrationServiceChannel : RegistrationWeb.Client.RegistrationService.IRegistrationService, System.ServiceModel.IClientChannel {
+    public interface IRegistrationServiceChannel : RegistrationWeb.Client.ServiceReference1.IRegistrationService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class RegistrationServiceClient : System.ServiceModel.ClientBase<RegistrationWeb.Client.RegistrationService.IRegistrationService>, RegistrationWeb.Client.RegistrationService.IRegistrationService {
+    public partial class RegistrationServiceClient : System.ServiceModel.ClientBase<RegistrationWeb.Client.ServiceReference1.IRegistrationService>, RegistrationWeb.Client.ServiceReference1.IRegistrationService {
         
         public RegistrationServiceClient() {
         }
@@ -325,7 +322,5 @@ namespace RegistrationWeb.Client.RegistrationService {
         public System.Threading.Tasks.Task<RegistrationWeb.ServiceReference1.CourseDAO[]> listStudentScheduleAsync(RegistrationWeb.ServiceReference1.StudentDAO student) {
             return base.Channel.listStudentScheduleAsync(student);
         }
-
-     
-   }
+    }
 }

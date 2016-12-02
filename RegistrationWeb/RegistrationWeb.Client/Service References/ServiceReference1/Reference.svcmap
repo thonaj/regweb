@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7d8df25d-d56c-47f2-8520-604f23fe12da" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RegistrationService.xsd" MetadataType="Schema" ID="5ae0125b-3103-497f-a858-5704c3f56e8b" SourceId="1" SourceUrl="http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RegistrationService.disco" MetadataType="Disco" ID="335c911b-65cc-4a2e-8b42-80a2004a2910" SourceId="1" SourceUrl="http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc?disco" />
+    <MetadataFile FileName="RegistrationService1.xsd" MetadataType="Schema" ID="307be08d-b6db-4324-91aa-462894b6ab54" SourceId="1" SourceUrl="http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RegistrationService2.xsd" MetadataType="Schema" ID="5eb28ccc-d1db-4045-ace9-c10ac172652f" SourceId="1" SourceUrl="http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RegistrationService.wsdl" MetadataType="Wsdl" ID="5fa57b42-61f7-4c0b-9599-7725d6b302d5" SourceId="1" SourceUrl="http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

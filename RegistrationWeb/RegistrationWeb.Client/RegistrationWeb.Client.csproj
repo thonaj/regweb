@@ -90,11 +90,28 @@
     <Content Include="modifycoursecapacity.aspx" />
     <Content Include="modifycoursetime.aspx" />
     <Content Include="packages.config" />
-    <None Include="Service References\RegistrationService\RegistrationService.xsd">
+    <Content Include="registrar.aspx" />
+    <Content Include="Properties\DataSources\RegistrationWeb.ServiceReference1.CourseDAO.datasource" />
+    <Content Include="Properties\DataSources\RegistrationWeb.ServiceReference1.StudentCourseListDAO.datasource" />
+    <Content Include="Properties\DataSources\RegistrationWeb.ServiceReference1.StudentDAO.datasource" />
+    <None Include="Service References\ServiceReference1\RegistrationService.disco" />
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <None Include="Service References\ServiceReference1\RegistrationService.wsdl" />
+    <None Include="Service References\ServiceReference1\RegistrationService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="registrar.aspx" />
-    <Content Include="Site.Master" />
+    <None Include="Service References\ServiceReference1\RegistrationService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\RegistrationService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -108,25 +125,11 @@
     <Content Include="Properties\DataSources\RegistrationWeb.RegistrationService.CourseDAO.datasource" />
     <Content Include="Properties\DataSources\RegistrationWeb.RegistrationService.StudentCourseListDAO.datasource" />
     <Content Include="Properties\DataSources\RegistrationWeb.RegistrationService.StudentDAO.datasource" />
-    <None Include="Service References\RegistrationService\RegistrationService.disco" />
-    <None Include="Service References\RegistrationService\configuration91.svcinfo" />
-    <None Include="Service References\RegistrationService\configuration.svcinfo" />
-    <None Include="Service References\RegistrationService\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <Content Include="student.aspx" />
     <Content Include="Style.css" />
     <Content Include="viewcourseenrollment.aspx" />
     <Content Include="viewstudentschedule.aspx" />
     <Content Include="Web.config" />
-    <None Include="Service References\RegistrationService\RegistrationService.wsdl" />
-    <None Include="Service References\RegistrationService\RegistrationService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\RegistrationService\RegistrationService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="addcourse.aspx.cs">
@@ -175,7 +178,7 @@
     <Compile Include="registrar.aspx.designer.cs">
       <DependentUpon>registrar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Service References\RegistrationService\Reference.cs">
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -223,7 +226,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\RegistrationService\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

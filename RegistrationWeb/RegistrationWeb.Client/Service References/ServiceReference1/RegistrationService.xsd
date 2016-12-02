@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://localhost/RegistrationDAL.Client/RegistrationService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RegistrationClient.Models" />
-  <xs:import schemaLocation="http://localhost/RegistrationDAL.Client/RegistrationService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RegistrationClient.Models" />
+  <xs:import schemaLocation="http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
   <xs:element name="getCourses">
     <xs:complexType>
       <xs:sequence />

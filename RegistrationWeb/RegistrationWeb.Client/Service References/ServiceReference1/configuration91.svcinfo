@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="ECbyzCVdhFN43JU2ZpflPkXN7Q0=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="CUHo0VptPfq7KMxMtQH8sVTbrlM=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IRegistrationService">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IRegistrationService" contract="RegistrationService.IRegistrationService" bindingType="basicHttpBinding" address="http://localhost/RegistrationDAL.Client/RegistrationService.svc" bindingConfiguration="BasicHttpBinding_IRegistrationService">
+    <endpoint name="BasicHttpBinding_IRegistrationService" contract="ServiceReference1.IRegistrationService" bindingType="basicHttpBinding" address="http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc" bindingConfiguration="BasicHttpBinding_IRegistrationService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost/RegistrationDAL.Client/RegistrationService.svc</serializedValue>
+          <serializedValue>http://34.193.92.187/RegistrationDAL.Client_deploy/RegistrationService.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -127,7 +127,7 @@
           <serializedValue>BasicHttpBinding_IRegistrationService</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>RegistrationService.IRegistrationService</serializedValue>
+          <serializedValue>ServiceReference1.IRegistrationService</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
