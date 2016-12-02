@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="RegistrationWeb.Client.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Registration Web Page</title>
+    <link rel="stylesheet" href="Style.css" />    
+   <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div id="header">
+         <div class="title">.NET Training</div>
+       </div>
+       
+       <div id="pages">
+          <asp:Button  ID="studentButton" Text="Students" OnClick="studentButton_Click" runat="server" Width="75px" />
+          <asp:Button  ID="registrarButton" Text="Registrar" OnClick="registrarButton_Click" runat="server" Width="75px"/>
+
+
+       </div>
+
+    <div>
+      <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+    </div>
+
+      <div id="footer">
+         <asp:Label runat="server" Font-Size="Large">copyright &copy; 2016 Jason Goodell</asp:Label>
+      </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\jason\Source\Repos\RegistrationDB\RegistrationWeb\RegistrationWeb\bin\Debug\RegistrationWeb.dll.config
+C:\Users\jason\Source\Repos\RegistrationDB\RegistrationWeb\RegistrationWeb\bin\Debug\RegistrationWeb.dll
+C:\Users\jason\Source\Repos\RegistrationDB\RegistrationWeb\RegistrationWeb\bin\Debug\RegistrationWeb.pdb
+C:\Users\jason\Source\Repos\RegistrationDB\RegistrationWeb\RegistrationWeb\obj\Debug\RegistrationWeb.csprojResolveAssemblyReference.cache
+C:\Users\jason\Source\Repos\RegistrationDB\RegistrationWeb\RegistrationWeb\obj\Debug\RegistrationWeb.dll
+C:\Users\jason\Source\Repos\RegistrationDB\RegistrationWeb\RegistrationWeb\obj\Debug\RegistrationWeb.pdb
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\RegistrationWeb.dll.config
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\RegistrationWeb.dll
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\bin\Debug\RegistrationWeb.pdb
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\obj\Debug\RegistrationWeb.csprojResolveAssemblyReference.cache
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\obj\Debug\RegistrationWeb.dll
+C:\Users\jason\Source\Repos\regweb\RegistrationWeb\RegistrationWeb\obj\Debug\RegistrationWeb.pdb

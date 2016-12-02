@@ -1,0 +1,12 @@
+﻿body {font-family:Cambria,Georgia,'Times New Roman';margin:0}
+div#header div.title, div.item h3, div.item h4, div.pager A{font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial }
+div#header {
+   background-color: darkseagreen;
+   border-bottom: 2px solid #111;
+   color: white;
+}
+div#header div.title {font-size:2em; padding:.6em}
+div#content {border-left:2px solid gray;margin-left:9em;padding:1em;}
+div#pages {float:left; width:8em; padding:.3em;}
+
+
